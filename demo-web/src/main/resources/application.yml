@@ -1,0 +1,15 @@
+spring:
+  jackson:
+    time-zone: GMT+8
+    date-format: yyyy-MM-dd HH:mm:ss
+  mvc:
+    servlet:
+      load-on-startup: 1
+  application:
+    name: micro-web
+server:
+  port: 5001
+
+nacos:
+  discovery:
+    server-addr: 127.0.0.1:8848
